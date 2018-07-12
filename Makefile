@@ -5,7 +5,7 @@ db.o : db.c
 	cc -c db.c
 
 clean :
-	rm main db.o
+	rm main db.o *~
 
 .PHONY : main clean
 	
